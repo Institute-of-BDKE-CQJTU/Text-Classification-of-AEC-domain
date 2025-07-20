@@ -1,0 +1,3 @@
+index,text,true label,RoBERTa Prediction,BERT Prediction,Deepseek Prediction,Qwen Prediction,Llama Prediction
+34,听力测听室应做全浮筑房中房设计，且房间入口设置声闸；听力测听室的空调系统应设置消声器。,general,direct,direct,method,direct,direct
+99,如果因抗浮不满足要求而将裙房范围设置抗浮桩，由于抗拔桩的支撑作用，裙房的沉降将受到限制，这就加大了高层与裙房间的沉降差，因此应考虑其影响。,others,general,general,indirect,general,indirect

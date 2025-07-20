@@ -1,0 +1,1 @@
+下载bert-base-chinese模型放在此目录下

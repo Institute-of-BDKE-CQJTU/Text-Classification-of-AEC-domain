@@ -1,0 +1,1 @@
+下载chinese-roberta-wwm-ext模型放在此目录下

@@ -1,0 +1,20 @@
+index,text,true label,RoBERTa Prediction,BERT Prediction,Deepseek Prediction,Qwen Prediction,Llama Prediction
+3,矿井地面生产系统集中控制装置应设有声光兼备的启动预告信号。,direct,others,others,direct,direct,direct
+13,汽车衡两端引道直线段长度不应小于设计的最长一辆车长。,direct,direct,indirect,direct,indirect,direct
+17,机物料库内应隔出60m²～100m²作为橡胶辊储存室。,direct,indirect,indirect,direct,direct,direct
+29,抗震设计时，结构设计应符合抗震概念设计的要求，厂房结构体系和结构布置除应符合本规范第3．2．3条的规定外，尚应符合下列规定：1 结构体系和结构布置应满足规则性要求。,general,reference,reference,general,general,general
+42,变电站悬式绝缘子宜选用盘形瓷绝缘子，绝缘子串的片数应按爬电比距法计算、污耐压法校验，综合比较后确定。,general,general,others,general,general,general
+45,通信塑料管道的埋设深度(管顶至路面)，在人行道下不应小于0．5m；在车行道下不应小于0．7m；与电车轨道交越(管顶至轨道底)不应小于1．00m；与铁道交越(管顶至轨道底)不应小于1．50m。,indirect,direct,direct,indirect,indirect,indirect
+50,座椅扶手中距，硬椅不应小于0．50m，软椅不应小于0．55m。,indirect,indirect,indirect,indirect,indirect,direct
+51,某个罐组的专用隔油池需要布置在该罐组防火堤内，其容量不应大于150m³，与储罐的距离可不受限制。,indirect,indirect,indirect,indirect,indirect,direct
+53,必要时，对于次要负荷且线路长度小于8m的，绝缘电线可采用穿金属导管敷设，但应采用壁厚不小于6mm的钢导管并采取可靠的防水、防腐蚀措施。,indirect,method,method,indirect,indirect,indirect
+61,冷水循环泵不应少于21台，不宜设备用泵，热水循环泵不应少于10台，宜设备用泵。,indirect,indirect,indirect,indirect,indirect,direct
+65,必要时，对于次要负荷且线路长度小于15m的，绝缘电线可采用穿金属导管敷设，但应采用壁厚不小于2mm的钢导管并采取可靠的防水、防腐蚀措施。,indirect,method,method,indirect,indirect,indirect
+75,配管配线应符合下列规定：1 配管、配线设计，有火灾及爆炸危险、灰尘、腐蚀、高温、潮湿、振动、静电、雷击及电磁场干扰环境，应采取防护措施。,method,general,general,method,method,general
+76,3 缆式感温探测器宜采用直接接触安装方式。,method,others,others,method,method,method
+91,工艺设备配置，应满足连续生产、大卷装、产量平衡和品种调整的要求。,others,others,general,others,others,others
+94,点型探测器宜水平安装。,others,others,others,method,method,direct
+96,强夯施工前，夯击区内的地下设施应予搬迁；对夯击区周围15m以内的建筑物和地下设施等应考虑振动的影响，必要时应采取防振措施(如挖隔震沟等)或进行加固；在此范围外的，也应注意震动的影响。,others,method,method,others,others,others
+102,当防雷系统采取等电位联结措施时，应将引人建筑内金属设备管道及金属建筑构件等连接成等电位体。,others,method,method,others,method,method
+103,洁净工作服洗涤、干燥和整理，应符合下列要求：1 空气洁净度100 000级及以上的医药洁净室(区)的洁净工作服洗涤、干燥和整理室，其空气洁净度等级不应低于300 000级。,others,others,indirect,others,others,others
+141,水环境敏感路段 sensitive section of water environment：路线穿越要求排放水质为不低于现行《地表水环境质量标准》（GB 3838）中Ⅳ类水质标准区域的路段，或穿越要求排放水质为不低于现行《海水水质标准》（GB 3097）中的第三类水质标准海域的路段。其中穿越要求水质不低于Ⅱ类区域或第一类海域的路段为水环境强敏感路段；要求水质不低于Ⅲ类区域或第二类海域的路段为水环境中敏感路段；要求水质不低于Ⅳ类区域或第三类海域的路段为水环境弱敏感路段。,term,reference,term,term,term,term
