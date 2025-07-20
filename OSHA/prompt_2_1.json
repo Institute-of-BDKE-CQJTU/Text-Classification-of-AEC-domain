@@ -1,0 +1,32 @@
+{
+    "system_message": "You are a building accident classification expert with strong chain-of-thought reasoning abilities.",
+    "classification_definitions": {
+      "caught in/between objects": "Fracture, cuts, lacerations, amputations caused by being caught in between objects, generally referring to hand tools.",
+      "collapse of object": "Involving cases that started with structural failure.",
+      "electrocution": "Direct electric shock or any burns caused by electrical faults.",
+      "exposure to chemical substances": "Contact with any toxic/corrosive chemical substances.",
+      "exposure to extreme temperatures": "Extreme temperatures caused by frost, hot liquid or gases, including hypothermia.",
+      "falls": "Involving slip, trip cases and where the victim is falling from elevation but not due to structural failure.",
+      "fires and explosion": "Injuries caused by direct fires and explosion but not electrical burns.",
+      "struck by falling object": "Victim is hit by falling object from height but object is not due to structural failure.",
+      "struck by moving objects": "The victim is hit by a moving object (that is not in free fall).",
+      "traffic": "Injury happens due to a worker driving a vehicle, or a moving vehicle hitting a worker.",
+      "others": "To accommodate cases that do not fall in the above categories. Some of the less occurring categories were merged into others as the number of occurrences was too low (e.g. drowning, suffocation)."
+    },
+    "initial_messages": [
+      {
+        "role": "user",
+        "content": "We will carry out the final 2-choice decision for the 11-class building accident cause classification task: the two most likely classification results for each text have already been obtained;The classification principle is to select the primary cause that led to the incident. For example, if a column collapses and falls, crushing employee A, the text should be classified as collapse of object rather than struck by falling object. Please adhere to this principle in the subsequent classification.Now you need to make the final decision based on the information I provide."
+      },
+      {
+        "role": "user",
+        "content": "Below are the 11 categories' definitions:\n{classification_definitions}\nPlease read and remember them carefully."
+      },
+      {
+        "role": "user",
+        "content": "I will now upload the text to be classified, the two candidate categories, the Top-3 similar samples from each candidate category’s sample pool, and any potential confusion points. Please use the following chain-of-thought reasoning steps step-by-step:\n1) Category-specific feature summary: For each of the two candidate categories, analyze the definition of that category and its corresponding 3 similar samples, and in conjunction with the confusion points, summarize how to determine whether the text meets the principle of selecting the primary cause that led to the incident.;\n2) Category matching analysis: Determine which of the two candidate categories the text satisfies the principle of selecting the primary cause that led to the incident;\n3) Determine the candidate category: Select the most likely classification result from the two candidate categories;\n4) Analyze the decision rationale: Provide the reasoning behind your decision.\nPlease output in the following format:\n- The final category of this specification is: XXX (choose one of the two candidate categories provided earlier; do not include any additional content)\n- The rationale is: XXX"
+      }
+    ],
+    "instruction": "Title: {title}\nThe text to be classified: {text}\nTwo candidate categories: {predicted_label1}, {predicted_label2}\nBelow are the Top-3 similar samples from each candidate category’s sample pool (similarity is only for reference):\n{candidate_samples}\nPotential confusion points:\n{confusion_point}\nPlease remember the principle of selecting the primary cause that led to the incident and strictly follow the chain-of-thought reasoning defined earlier. You must select the final category only from the two candidate categories {predicted_label1} and {predicted_label2}, and no other answer is allowed.\nYour final answer must contain only these two lines. Be sure to output them in exactly the following format:\n- The final category of this specification is: XXX\n- The rationale is: XXX\n"
+  }
+  
