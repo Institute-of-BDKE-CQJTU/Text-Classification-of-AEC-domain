@@ -1,5 +1,5 @@
 {
-    "description":"This repository only provides a subset of prompt examples used in some experiments. Users can further adjust the specific content based on the existing formats and actual model prediction scenarios.",
+    "Statement":"This repository only provides a subset of prompt examples used in some experiments. Users can further adjust the specific content based on the existing formats and actual model prediction scenarios.",
     "system_message": "You are a building accident classification expert with strong chain-of-thought reasoning abilities.",
     "classification_definitions": {
       "caught in/between objects": "Fracture, cuts, lacerations, amputations caused by being caught in between objects, generally referring to hand tools.",
